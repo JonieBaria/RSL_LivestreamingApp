@@ -73,7 +73,7 @@ const IPCameraViewer = () => {
 
   const handleConnect = () => {
     if (ip) {
-      setStreamUrl(`https://${ip}:8080/video`);
+      setStreamUrl(`http://${ip}:8080/video`);
     }
   };
 
