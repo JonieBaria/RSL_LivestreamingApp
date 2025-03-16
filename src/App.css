@@ -17,7 +17,7 @@
 
 /* Fullscreen Mode - Hide UI & Show Camera */
 .app.fullscreen {
-  background-color: black; /* Make sure the camera is the focus */
+  background-color: rgb(253, 252, 252); /* Make sure the camera is the focus */
 }
 
 /* Hide all UI components except .container in fullscreen */
@@ -121,7 +121,7 @@
 /* Container (Always Visible in Fullscreen) */
 .container {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   right: 10px;
   width: 200px;
   height: 100px;
